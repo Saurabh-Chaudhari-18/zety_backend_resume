@@ -1,0 +1,58 @@
+# Node modules
+/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/bower_components
+
+# Build directories
+/dist
+/build
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+/coverage
+
+# Testing
+/coverage
+.nyc_output
+
+# VSCode specific
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# MacOS system files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# IDE and editor specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Generated documentation
+/doc/
+
+# Cloudinary API upload folder (if used for image/video upload)
+cloudinary_uploads/
